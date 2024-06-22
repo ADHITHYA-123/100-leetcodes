@@ -10,3 +10,4 @@ for i in range(size):
     for j in range(i+1,size):
         if array[i]+array[j]==target:
             print(i,j)
+

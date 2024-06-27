@@ -13,7 +13,7 @@ public class Reverse_1 {
         System.out.println("The String is : "+new String(array));
         reverse(array,n);
         System.out.println("The Reversed string is : "+new String(array));
-
+        s.close(); 
     }
     public static void reverse(char[] array,int n){
         int l=0,r=n-1;
@@ -25,6 +25,6 @@ public class Reverse_1 {
             l++;
             r--;
         }
-        
+       
     }
 }

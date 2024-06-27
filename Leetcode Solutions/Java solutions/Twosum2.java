@@ -20,5 +20,6 @@ public class Twosum2{
                 }
             }
         }
+        sc.close();
     }
 }

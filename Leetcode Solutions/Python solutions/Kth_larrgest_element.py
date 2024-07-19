@@ -11,7 +11,7 @@ def quickselect(arr,k,l,r):
     elif p<k:
         quickselect(arr,k,p+1,r)
     else:
-        print(f"The kth{k} largest element is : {arr[p]}")
+        print(f"The kth largest element is : {arr[p]}")
     
 size=int(input('Enter the size of the array: '))
 arr=[]
